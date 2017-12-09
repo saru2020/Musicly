@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTJSEnvironment.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/saravanan_vij/Documents/Learnings/Musicly/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h

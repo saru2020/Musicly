@@ -1,0 +1,4 @@
+#Tue Nov 28 23:49:42 IST 2017
+base.0=/Users/saravanan_vij/Desktop/Musicly_Trys/CRNA/Musicly/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+renamed.0=classes.dex
+file.0=/Users/saravanan_vij/Desktop/Musicly_Trys/CRNA/Musicly/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex
