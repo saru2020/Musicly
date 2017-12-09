@@ -44,7 +44,7 @@ export default class VolumeBox extends Component {
         //  step={1}//Used to define the steps for slider Changes, it basically disables smooth dragging.
          trackStyle={customStyles.track}
          thumbStyle={customStyles.thumb}
-         minimumTrackTintColor='#4286f4'
+         minimumTrackTintColor='#30a935'
 
          minimumValue={0}
          maximumValue={1}
