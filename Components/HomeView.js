@@ -19,6 +19,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.verticalContainer}>
+        <Text style={styles.appTitle}>Musicly</Text>
         <View style={styles.volumeControlContainer}>
           <View style={styles.volumeControl}>
             <VolumeView onVolumeControlStateChange={this.volumeControlChanged}/>
@@ -87,8 +88,14 @@ const styles = StyleSheet.create({
     // backgroundColor: '#fff',
     // alignItems: 'center',
     justifyContent: 'flex-end',
-    right: 20,
-    top: 20
+    right: 40,
+    top: 40
+  },
+  appTitle: {
+    top: 40,
+    fontSize: 40,
+    fontWeight: 'bold',
+    color: '#ef3232'
   }
 });
 
