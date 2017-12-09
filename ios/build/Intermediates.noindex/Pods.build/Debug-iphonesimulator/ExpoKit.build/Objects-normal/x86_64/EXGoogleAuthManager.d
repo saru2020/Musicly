@@ -1,0 +1,43 @@
+dependencies: \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXGoogleAuthManager.m \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Target\ Support\ Files/ExpoKit/ExpoKit-prefix.pch \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXGoogleAuthManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/EXGoogle.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/ScopedModule/EXScopedBridgeModule.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Private/GoogleSignIn/GoogleSignIn.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Private/GoogleSignIn/GIDAuthentication.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Private/GoogleSignIn/GIDGoogleUser.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Private/GoogleSignIn/GIDProfileData.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Private/GoogleSignIn/GIDSignIn.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Private/GoogleSignIn/GIDSignInButton.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/AppAuth.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthState.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthStateChangeDelegate.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthStateErrorDelegate.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthorizationRequest.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDResponseTypes.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDScopes.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthorizationResponse.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthorizationService.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthorizationUICoordinator.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDError.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDErrorUtilities.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDGrantTypes.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDRegistrationRequest.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDRegistrationResponse.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDScopeUtilities.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDServiceConfiguration.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDServiceDiscovery.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDTokenRequest.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDTokenResponse.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDTokenUtilities.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthState+IOS.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthorizationService+IOS.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Headers/Public/AppAuth/OIDAuthorizationUICoordinatorIOS.h

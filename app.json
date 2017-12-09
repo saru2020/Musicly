@@ -1,5 +1,22 @@
 {
   "expo": {
-    "sdkVersion": "22.0.0"
+    "sdkVersion": "22.0.0",
+    "ios": {
+      "bundleIdentifier": "com.saravanan.musicly",
+      "publishBundlePath": "ios/musicly/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/musicly/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.saravanan.musicly"
+    },
+    "name": "Musicly",
+    "slug": "musicly",
+    "version": "0.1.0",
+    "isDetached": true,
+    "detach": {
+      "scheme": "exp4f028e1507c54491a1ac2c25851a7fe9",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.0.4-sdk22.0.0-10110e7c-e9b1-43e6-b7e0-8a0e971480e8.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.0.0-sdk22.0.0-7432f75c-05a1-4826-a456-02875e338222.tar.gz"
+    }
   }
 }

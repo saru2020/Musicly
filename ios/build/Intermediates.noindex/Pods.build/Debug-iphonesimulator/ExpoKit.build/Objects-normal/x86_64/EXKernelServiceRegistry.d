@@ -1,0 +1,40 @@
+dependencies: \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Core/EXKernelServiceRegistry.m \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/Target\ Support\ Files/ExpoKit/ExpoKit-prefix.pch \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Core/EXKernelServiceRegistry.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Core/EXKernelBridgeRegistry.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Core/EXKernelBridgeRecord.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXBranchManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXKernelService.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXErrorRecoveryManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/EXErrorRecovery.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/ScopedModule/EXScopedBridgeModule.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Internal/EXScopedModuleRegistry.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXGoogleAuthManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/EXGoogle.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXKernelLinkingManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Internal/EXLinkingManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/ScopedModule/EXScopedEventEmitter.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/node_modules/react-native/React/Modules/RCTEventEmitter.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/ReactAppManager/EXReactAppManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Api/EXCachedResource.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/EXUtil.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXKernelModuleManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Internal/EXKernelModule.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXRemoteNotificationManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/EXNotifications.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXScreenOrientationManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/EXScreenOrientation.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Kernel/Services/EXSensorManager.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/Sensors/EXAccelerometer.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/Sensors/EXDeviceMotion.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/Sensors/EXGyroscope.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/Sensors/EXMagnetometer.h \
+  /Users/saravanan_vij/Desktop/Musicly_Trys/Expo_Ejected_app/Musicly/ios/Pods/ExpoKit/ios/Exponent/Versioned/Modules/Api/Sensors/EXMagnetometerUncalibrated.h
