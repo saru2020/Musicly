@@ -28,3 +28,9 @@ react-native run-ios
 ```
 react-native run-android
 ```
+
+<br/>
+<br/>
+
+Accompanying <a target="_blank" href="https://medium.com/@saruiosdev/musicly-noisli-in-react-native-efd14023bd7c"> Medium blogpost </a> for more context.
+
