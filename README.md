@@ -34,7 +34,8 @@ react-native run-android
 
 Accompanying <a target="_blank" href="https://medium.com/@saruiosdev/musicly-noisli-in-react-native-efd14023bd7c"> Medium blogpost </a> for more context.
 
-
+<br/>
+<br/>
 ## 👨🏻‍💻 Author
 [1.1]: http://i.imgur.com/tXSoThF.png
 [1]: http://www.twitter.com/saruhere
