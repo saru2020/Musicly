@@ -36,6 +36,7 @@ Accompanying <a target="_blank" href="https://medium.com/@saruiosdev/musicly-noi
 
 <br/>
 <br/>
+
 ## 👨🏻‍💻 Author
 [1.1]: http://i.imgur.com/tXSoThF.png
 [1]: http://www.twitter.com/saruhere
