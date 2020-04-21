@@ -1,0 +1,4 @@
+build/
+xcuserdata
+ios/build/
+android/build/
