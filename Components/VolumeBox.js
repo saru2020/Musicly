@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Slider from '@react-native-community/slider';
+
 import {
   StyleSheet,
   Text,
-  View,
-  Slider
+  View
 } from 'react-native';
 
 export default class VolumeBox extends Component {
@@ -17,7 +18,10 @@ export default class VolumeBox extends Component {
 
   }
 
-  componentWillMount() {
+  // componentWillMount() {
+  //   this.disabled(this.state.disabled)
+  // }
+  componentDidMount() {
     this.disabled(this.state.disabled)
   }
 
