@@ -82,6 +82,13 @@ target 'Musicly' do
   add_flipper_pods!
   post_install do |installer|
     flipper_post_install(installer)
+    ## Fix for XCode 12.5 beta
+    find_and_replace("../node_modules/react-native/React/CxxBridge/RCTCxxBridge.mm",
+        "_initializeModules:(NSArray<id<RCTBridgeModule>> *)modules", "_initializeModules:(NSArray<Class> *)modules")
+    find_and_replace("../node_modules/react-native/ReactCommon/turbomodule/core/platform/ios/RCTTurboModuleManager.mm",
+    "RCTBridgeModuleNameForClass(strongModule))", "RCTBridgeModuleNameForClass(Class(strongModule)))")
+    find_and_replace("Pods/Flipper-Folly/folly/synchronization/DistributedMutex-inl.h",
+             "  atomic_notify_one(state);", "  folly::atomic_notify_one(state);")
   end
 end
 target 'Musicly-tvOS' do
@@ -90,4 +97,18 @@ target 'Musicly-tvOS' do
     inherit! :search_paths
     # Pods for testing
   end
+end
+
+def find_and_replace(dir, findstr, replacestr)
+  Dir[dir].each do |name|
+        text = File.read(name)
+        replace = text.gsub(findstr,replacestr)
+
+        if text != replace
+            puts "Fix: " + name
+            File.open(name, "w") { |file| file.puts replace }
+            STDOUT.flush
+        end
+    end
+    Dir[dir + '*/'].each(&method(:find_and_replace))
 end
