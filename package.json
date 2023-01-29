@@ -2,23 +2,31 @@
   "name": "Musicly",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "babel-preset-react-native-stage-0": "^1.0.1",
-    "jest-expo": "^22.0.0",
-    "react-test-renderer": "16.0.0-beta.5"
-  },
   "scripts": {
-    "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "node node_modules/jest/bin/jest.js --watch"
-  },
-  "jest": {
-    "preset": "jest-expo"
+    "start": "react-native start",
+    "test": "jest --watch",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.0.0-beta.5",
-    "react-native": "^0.49.5",
-    "react-native-sound": "^0.10.4"
+    "@react-native-community/slider": "^3.0.3",
+    "jetifier": "^2.0.0",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-sound": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
