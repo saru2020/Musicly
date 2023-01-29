@@ -10,7 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@react-native-community/slider": "^4.4.1",
+    "@react-native-community/slider": "^3.0.3",
+    "jetifier": "^2.0.0",
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-sound": "^0.11.0"

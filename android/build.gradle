@@ -2,17 +2,18 @@
 
 buildscript {
     ext {
-        buildToolsVersion = "28.0.3"
-        minSdkVersion = 16
-        compileSdkVersion = 28
-        targetSdkVersion = 28
+        buildToolsVersion = "30.0.3"
+        minSdkVersion = 21
+        compileSdkVersion = 31
+        targetSdkVersion = 31
+        supportLibVersion = "30.0.0"
     }
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:3.5.2")
+        classpath('com.android.tools.build:gradle:3.6.4')
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -33,5 +34,10 @@ allprojects {
         google()
         jcenter()
         maven { url 'https://www.jitpack.io' }   
+    }
+    configurations.all {
+        resolutionStrategy {
+            force 'com.facebook.react:react-native:0.62.2' //select Version you used
+        }
     }
 }
