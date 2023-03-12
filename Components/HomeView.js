@@ -1,50 +1,106 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import { Button } from 'react-native';
 
 import { StyleSheet, Text, View } from 'react-native';
 import SoundBox from './SoundBox'
 import VolumeView from './VolumeView'
+import {updateVolume} from '../redux/actions'
+import { useDispatch, useSelector } from 'react-redux'
+import { RootState } from '../redux/reducers';
 
 let defaultVolume = 0.6
-export default class App extends React.Component {
 
-  constructor(props) {
-     super(props)
-     this.state = {
-       volumeControlState: true
-     }
-     this.volumeControlChanged=this.volumeControlChanged.bind(this)
-  }
+const HomeView: React.FC = () => {
+  const dispatch = useDispatch()
+  const [rain, setRain] = useState({})
+  const [fire, setFire] = useState({})
+  const [wind, setWind] = useState({})
+  const [thunder, setThunder] = useState({})
+  // const [volumeControlState, setVolumeControlState] = useSelector((state: RootState) => state.volume.volume)//useState(state.volume)
+  const {volumeControlState} = useSelector((state: RootState) => state)
+  // const [dispatch] = useState(useDispatch())
 
-  render() {
-    return (
-      <View style={styles.verticalContainer}>
-        <Text style={styles.appTitle}>Musicly</Text>
-        <View style={styles.volumeControlContainer}>
-          <View style={styles.volumeControl}>
-            <VolumeView onVolumeControlStateChange={this.volumeControlChanged}/>
-          </View>
-        </View>
-        <View style={styles.horizontalContainer}>
-          <SoundBox ref={instance => { this.rain = instance; }} name="Rain" volume={defaultVolume} fileName="Rain" title="Let it Rain!" style={styles.leftOne}/>
-          <SoundBox ref={instance => { this.fire = instance; }} name="Fire" volume={0.8} fileName="Fire" title="Lit the Fire!" style={styles.leftOne}/>
-        </View>
-        <View style={styles.horizontalContainer}>
-          <SoundBox ref={instance => { this.wind = instance; }} name="Wind" volume={0.4} fileName="Wind" title="Let the Wind Pass!" style={styles.leftOne}/>
-          <SoundBox ref={instance => { this.thunder = instance; }} name="Thunder" volume={0.3} fileName="Thunder" title="Let the Thunder shout!" style={styles.rightOne}/>
+  useEffect(() => {
+    // setVolumeControlState(true)
+    dispatch(updateVolume({volume: true}))
+  }, []);
+  
+  function volumeControlChanged(volumeState) {
+    console.warn(volumeState);
+    rain.volumeControlChanged(volumeState)
+    fire.volumeControlChanged(volumeState)
+    wind.volumeControlChanged(volumeState)
+    thunder.volumeControlChanged(volumeState)
+    // dispatch({ type: 'UPDATE_VOLUME', payload: volume })
+    console.log('volumeControlState: ', volumeControlState);
+    // setVolumeControlState(volumeState)
+    dispatch(updateVolume({volume: volumeState}))
+  };
+
+  return (
+    <View style={styles.verticalContainer}>
+      <Text style={styles.appTitle}>Musicly</Text>
+      <View style={styles.volumeControlContainer}>
+        <View style={styles.volumeControl}>
+          <VolumeView onVolumeControlStateChange={volumeControlChanged}/>
         </View>
       </View>
-    );
-  }
+      <View style={styles.horizontalContainer}>
+        <SoundBox ref={instance => { setRain(instance); }} name="Rain" volume={defaultVolume} fileName="Rain" title="Let it Rain!" style={styles.leftOne}/>
+        <SoundBox ref={instance => { setFire(instance); }} name="Fire" volume={0.8} fileName="Fire" title="Lit the Fire!" style={styles.leftOne}/>
+      </View>
+      <View style={styles.horizontalContainer}>
+        <SoundBox ref={instance => { setWind(instance); }} name="Wind" volume={0.4} fileName="Wind" title="Let the Wind Pass!" style={styles.leftOne}/>
+        <SoundBox ref={instance => { setThunder(instance); }} name="Thunder" volume={0.3} fileName="Thunder" title="Let the Thunder shout!" style={styles.rightOne}/>
+      </View>
+    </View>
+  );
+};
 
-  volumeControlChanged(volumeState) {
-    // console.warn(volumeState);
-    this.rain.volumeControlChanged(volumeState)
-    this.fire.volumeControlChanged(volumeState)
-    this.wind.volumeControlChanged(volumeState)
-    this.thunder.volumeControlChanged(volumeState)
-  }
-}
+export default HomeView;
+// export default class App extends React.Component {
+
+//   constructor(props) {
+//      super(props)
+//      this.state = {
+//        volumeControlState: true
+//      }
+//      this.volumeControlChanged=this.volumeControlChanged.bind(this)
+//   }
+
+//   render() {
+//     return (
+//       <View style={styles.verticalContainer}>
+//         <Text style={styles.appTitle}>Musicly</Text>
+//         <View style={styles.volumeControlContainer}>
+//           <View style={styles.volumeControl}>
+//             <VolumeView onVolumeControlStateChange={this.volumeControlChanged}/>
+//           </View>
+//         </View>
+//         <View style={styles.horizontalContainer}>
+//           <SoundBox ref={instance => { this.rain = instance; }} name="Rain" volume={defaultVolume} fileName="Rain" title="Let it Rain!" style={styles.leftOne}/>
+//           <SoundBox ref={instance => { this.fire = instance; }} name="Fire" volume={0.8} fileName="Fire" title="Lit the Fire!" style={styles.leftOne}/>
+//         </View>
+//         <View style={styles.horizontalContainer}>
+//           <SoundBox ref={instance => { this.wind = instance; }} name="Wind" volume={0.4} fileName="Wind" title="Let the Wind Pass!" style={styles.leftOne}/>
+//           <SoundBox ref={instance => { this.thunder = instance; }} name="Thunder" volume={0.3} fileName="Thunder" title="Let the Thunder shout!" style={styles.rightOne}/>
+//         </View>
+//       </View>
+//     );
+//   }
+
+//   volumeControlChanged(volumeState) {
+//     console.warn(volumeState);
+//     this.rain.volumeControlChanged(volumeState)
+//     this.fire.volumeControlChanged(volumeState)
+//     this.wind.volumeControlChanged(volumeState)
+//     this.thunder.volumeControlChanged(volumeState)
+
+//     const dispatch = useDispatch()
+//     dispatch(volumUpdateSuccess(volume))
+//     // updateVolume(volumeState)
+//   }
+// }
 
 //CSS
 const styles = StyleSheet.create({
@@ -99,10 +155,10 @@ const styles = StyleSheet.create({
   }
 });
 
-class HomeView extends React.Component {
+// class HomeView extends React.Component {
 
-  constructor(props) {
-   super(props)
-  }
+//   constructor(props) {
+//    super(props)
+//   }
 
-}
+// }
